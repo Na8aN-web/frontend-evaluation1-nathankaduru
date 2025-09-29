@@ -46,10 +46,10 @@ export default function About() {
     }, [words.length]);
 
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className=" bg-white">
             <section
                 ref={sectionRef}
-                className="min-h-screen flex items-center justify-center px-8 py-16"
+                className=" flex items-center justify-center px-[1vw] py-32"
             >
                 <div className="w-full mx-auto">
 
