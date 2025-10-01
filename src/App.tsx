@@ -6,6 +6,10 @@ import AboutVideos from './components/AboutVideos'
 import Work from './components/Work'
 import WorkVideos from './components/WorkVideos'
 import ScrollSlider from './components/ScrollSlider'
+import Projects from './components/Projects'
+import Awards from './components/Awards'
+import BrandCarousel from './components/BrandCarousel'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -19,6 +23,10 @@ function App() {
      <Work />
      <WorkVideos />
      <ScrollSlider />
+     <Projects />
+     <Awards />
+     <BrandCarousel />
+     <Footer />
     </>
   )
 }
