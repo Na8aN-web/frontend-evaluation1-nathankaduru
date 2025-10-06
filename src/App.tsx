@@ -1,15 +1,13 @@
-import Navbar from './components/Navbar'
+import Navbar from './layout/Navbar'
 import Hero from './components/Hero'
 import Showreel from './components/Showreel'
 import About from './components/About'
-import AboutVideos from './components/AboutVideos'
 import Work from './components/Work'
-import WorkVideos from './components/WorkVideos'
-import ScrollSlider from './components/ScrollSlider'
+import LogoSlider from './components/LogoSlider'
 import Projects from './components/Projects'
 import Awards from './components/Awards'
 import BrandCarousel from './components/BrandCarousel'
-import Footer from './components/Footer'
+import Footer from './layout/Footer'
 
 function App() {
 
@@ -19,10 +17,8 @@ function App() {
      <Hero />
      <Showreel />
      <About />
-     <AboutVideos />
      <Work />
-     <WorkVideos />
-     <ScrollSlider />
+     <LogoSlider />
      <Projects />
      <Awards />
      <BrandCarousel />
